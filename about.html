@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre mí | Alejandro Perellón</title>
+  <meta name="description" content="CV y trayectoria de Alejandro Perellón.">
+  <meta property="og:title" content="Sobre mí - Alejandro Perellón" />
+  <meta property="og:description" content="Conoce la formación y experiencia de Alejandro." />
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.4/dist/tailwind.min.css" rel="stylesheet">
+  <link href="assets/css/styles.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body class="bg-slate-50 dark:bg-slate-800 text-slate-800 dark:text-slate-50">
+  <header class="container mx-auto p-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold">Alejandro Perellón</h1>
+    <button id="burger" class="md:hidden">☰</button>
+    <nav id="nav" class="hidden md:flex space-x-4" aria-label="Main menu">
+      <a href="index.html" class="hover:underline">Inicio</a>
+      <a href="about.html" class="hover:underline">Sobre mí</a>
+      <a href="projects.html" class="hover:underline">Proyectos</a>
+      <a href="blog.html" class="hover:underline">Blog</a>
+      <a href="contact.html" class="hover:underline">Contacto</a>
+      <button id="theme-toggle" class="ml-4">🌙</button>
+    </nav>
+  </header>
+  <div id="mobile-menu" class="md:hidden hidden bg-slate-100 dark:bg-slate-700 p-4" aria-label="Mobile menu">
+    <a href="index.html" class="block py-1">Inicio</a>
+    <a href="about.html" class="block py-1">Sobre mí</a>
+    <a href="projects.html" class="block py-1">Proyectos</a>
+    <a href="blog.html" class="block py-1">Blog</a>
+    <a href="contact.html" class="block py-1">Contacto</a>
+    <button id="theme-toggle" class="mt-2">🌙</button>
+  </div>
+
+  <main class="container mx-auto p-4 space-y-6" data-aos="fade-up">
+    <section>
+      <h2 class="text-xl font-semibold mb-2">Formación</h2>
+      <ul class="list-disc ml-6">
+        <li>DAM 2025</li>
+        <li>ASIR 2023</li>
+        <li>Administración y Finanzas 2021</li>
+      </ul>
+    </section>
+    <section>
+      <h2 class="text-xl font-semibold mb-2">Experiencia</h2>
+      <ul class="list-disc ml-6">
+        <li>Altia – Analista de datos (mar 2025-jun 2025)</li>
+        <li>Alten – Técnico telecomunicaciones (mar 2023-jun 2023)</li>
+        <li>McDonald’s – Responsable experiencia cliente (nov 2021-dic 2024)</li>
+        <li>Iuris Corporate – Gestión contable & RRHH (mar 2021-jun 2021)</li>
+      </ul>
+    </section>
+    <section>
+      <h2 class="text-xl font-semibold mb-2">Habilidades</h2>
+      <p>Java 17, Kotlin, JavaScript ES6, SQL/MariaDB, Power BI, Hibernate 6, Docker, Git/GitHub, Maven/Gradle, Linux, DAX, HTML, Bash scripting.</p>
+    </section>
+    <section>
+      <h2 class="text-xl font-semibold mb-2">Idiomas</h2>
+      <p>Inglés A2 (lectura técnica fluida).</p>
+    </section>
+    <section>
+      <h2 class="text-xl font-semibold mb-2">Soft Skills</h2>
+      <p>Gestión de picos de trabajo, aprendizaje rápido, creatividad, adaptabilidad ágil.</p>
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>AOS.init();</script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

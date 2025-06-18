@@ -1,0 +1,17 @@
+/* Custom styles for Alejandro Portfolio */
+
+/* Ensure smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Burger menu hidden by default on desktop */
+#mobile-menu {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  #mobile-menu {
+    display: block;
+  }
+}

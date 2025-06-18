@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog | Alejandro Perellón</title>
+  <meta name="description" content="Artículos y publicaciones de Alejandro Perellón.">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.4/dist/tailwind.min.css" rel="stylesheet">
+  <link href="assets/css/styles.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body class="bg-slate-50 dark:bg-slate-800 text-slate-800 dark:text-slate-50">
+  <header class="container mx-auto p-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold">Alejandro Perellón</h1>
+    <button id="burger" class="md:hidden">☰</button>
+    <nav id="nav" class="hidden md:flex space-x-4" aria-label="Main menu">
+      <a href="index.html" class="hover:underline">Inicio</a>
+      <a href="about.html" class="hover:underline">Sobre mí</a>
+      <a href="projects.html" class="hover:underline">Proyectos</a>
+      <a href="blog.html" class="hover:underline">Blog</a>
+      <a href="contact.html" class="hover:underline">Contacto</a>
+      <button id="theme-toggle" class="ml-4">🌙</button>
+    </nav>
+  </header>
+  <div id="mobile-menu" class="md:hidden hidden bg-slate-100 dark:bg-slate-700 p-4" aria-label="Mobile menu">
+    <a href="index.html" class="block py-1">Inicio</a>
+    <a href="about.html" class="block py-1">Sobre mí</a>
+    <a href="projects.html" class="block py-1">Proyectos</a>
+    <a href="blog.html" class="block py-1">Blog</a>
+    <a href="contact.html" class="block py-1">Contacto</a>
+    <button id="theme-toggle" class="mt-2">🌙</button>
+  </div>
+
+  <main class="container mx-auto p-4 space-y-4" data-aos="fade-up">
+    <article class="p-4 border rounded">
+      <h2 class="font-semibold">Próximamente</h2>
+      <p>Esta sección del blog estará disponible en futuras actualizaciones.</p>
+    </article>
+  </main>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>AOS.init();</script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
