@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre mí | Alejandro Perellón</title>
+  <meta name="description" content="CV y trayectoria de Alejandro Perellón.">
+  <meta property="og:title" content="Sobre mí - Alejandro Perellón" />
+  <meta property="og:description" content="Conoce la formación y experiencia de Alejandro." />
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.4/dist/tailwind.min.css" rel="stylesheet">
+  <link href="assets/css/styles.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body class="bg-slate-50 dark:bg-slate-800 text-slate-800 dark:text-slate-50">
+  <header class="container mx-auto p-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold">Alejandro Perellón</h1>
+    <button id="burger" class="md:hidden">☰</button>
+    <nav id="nav" class="hidden md:flex space-x-4" aria-label="Main menu">
+      <a href="index.html" class="hover:underline">Inicio</a>
+      <a href="about.html" class="hover:underline">Sobre mí</a>
+      <a href="projects.html" class="hover:underline">Proyectos</a>
+      <a href="blog.html" class="hover:underline">Blog</a>
+      <a href="contact.html" class="hover:underline">Contacto</a>
+      <button class="theme-toggle ml-4">🌙</button>
+    </nav>
+  </header>
+  <div id="mobile-menu" class="md:hidden hidden bg-slate-100 dark:bg-slate-700 p-4" aria-label="Mobile menu">
+    <a href="index.html" class="block py-1">Inicio</a>
+    <a href="about.html" class="block py-1">Sobre mí</a>
+    <a href="projects.html" class="block py-1">Proyectos</a>
+    <a href="blog.html" class="block py-1">Blog</a>
+    <a href="contact.html" class="block py-1">Contacto</a>
+    <button class="theme-toggle mt-2">🌙</button>
+  </div>
+
+  <main class="container mx-auto p-4 space-y-6" data-aos="fade-up">
+    <h2 id="typed-about" class="text-xl md:text-3xl font-semibold text-center"></h2>
+    <!-- El contenido del CV se genera dinámicamente desde app.js -->
+    <div id="cv-container" class="space-y-6"></div>
+  </main>
+
+  <button id="back-to-top" class="fixed bottom-4 right-4 hidden p-3 rounded-full bg-indigo-500 text-white">↑</button>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>AOS.init();</script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
