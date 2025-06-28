@@ -1,6 +1,7 @@
 # Alejandro Portfolio
 
 Este repositorio contiene una web estática construida con HTML, Tailwind CSS y JavaScript vanilla para mostrar el blog, CV y proyectos de Alejandro Perellón.
+Incluye modo oscuro, animaciones AOS y generación dinámica del currículum con Typed.js para los textos principales.
 
 ## Despliegue local
 1. Clona el repositorio:

@@ -15,3 +15,8 @@ html {
     display: block;
   }
 }
+
+/* Back to top button */
+#back-to-top {
+  transition: opacity 0.3s ease;
+}
